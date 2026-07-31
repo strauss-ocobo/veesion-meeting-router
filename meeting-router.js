@@ -44,7 +44,7 @@
     var ROUTES = [
       {
       name: 'C-FR-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/getveesion/c-fr-1',
+      link: 'https://meetings-eu1.hubspot.com/veesion/c-fr-1',
       countries: ['France', 'Belgium'],
       locationType: 'zip_prefix', locationValues: ['75', '92'],
       storeTypes: ['Supermarket', 'Pharmacy'],
@@ -54,7 +54,7 @@
     },
     {
       name: 'C-FR-2', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/getveesion/c-fr-2',
+      link: 'https://meetings-eu1.hubspot.com/veesion/c-fr-2',
       countries: ['France'],
       locationType: 'zip_prefix', locationValues: ['77', '78', '91', '93', '94', '95'],
       storeTypes: ['Supermarket', 'Pharmacy'],
@@ -64,7 +64,7 @@
     },
     {
       name: 'C-FR-3', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/getveesion/c-fr-3',
+      link: 'https://meetings-eu1.hubspot.com/veesion/c-fr-3',
       countries: ['France', 'Belgium'],
       locationType: 'zip_prefix_exclude', locationValues: ['75', '77', '78', '91', '92', '93', '94', '95'],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store'],
@@ -74,7 +74,7 @@
     },
     {
       name: 'C-ES-1', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/getveesion/c-es-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-es-1',
       countries: ['Spain'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Convenience store', 'Electronics store', 'Hardware Store', 'Gas station'],
@@ -84,7 +84,7 @@
     },
     {
       name: 'C-IT-1', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/getveesion/c-it-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-it-1',
       countries: ['Italy'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Hardware Store', 'Convenience store', 'Electronics store', 'Gas station'],
@@ -94,7 +94,7 @@
     },
     {
       name: 'C-BR-1', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/getveesion-/c-br-1',
+      link: 'https://fr.veesion.io/meetings/veesion-/c-br-1',
       countries: ['Portugal', 'Brazil'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store', 'Grocery Store (Convenience store)', 'Electronics store', 'Hardware Store', 'Gardening Store'],
@@ -104,7 +104,7 @@
     },
     {
       name: 'C-US-2', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/getveesion/c-us-2',
+      link: 'https://fr.veesion.io/meetings/veesion/c-us-2',
       countries: ['United States', 'Canada'],
       locationType: '', locationValues: [],
       storeTypes: ['Liquor store', 'Convenience store', 'Gas station', 'Grocery Store (Convenience store)', 'Supermarket', 'Pharmacy'],
@@ -114,7 +114,7 @@
     },
     {
       name: 'C-US-1', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/getveesion/c-us-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-us-1',
       countries: ['United States', 'Canada'],
       locationType: '', locationValues: [],
       storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)'],
@@ -124,7 +124,7 @@
     },
     {
       name: 'C-UK-1', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/getveesion/c-uk-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-uk-1',
       countries: ['United Kingdom', 'Ireland', 'Scotland'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
@@ -134,7 +134,7 @@
     },
     {
       name: 'C-CATCH', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/getveesion-/c-catch',
+      link: 'https://meetings-eu1.hubspot.com/veesion-/c-catch',
       countries: ['CATCH'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
