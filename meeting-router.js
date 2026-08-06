@@ -131,16 +131,6 @@
       jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
-    },
-    {
-      name: 'C-CATCH', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion-/c-catch',
-      countries: ['CATCH'],
-      locationType: '', locationValues: [],
-      storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
-      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
-      minStores: 1
     }
     ];
   
