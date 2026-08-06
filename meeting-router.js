@@ -194,14 +194,15 @@
   
     // Countries claimed by other (non-CATCH) routes in the same flow.
     // A CATCH route matches any country not in this list.
-    function _claimedCountries(flow) {
-      var claimed = [];
-      ROUTES.forEach(function (r) {
-        if (r.flow !== flow || _includesLoose(r.countries, 'CATCH')) return;
-        r.countries.forEach(function (c) { claimed.push(c); });
-      });
-      return claimed;
-    }
+    // --- Disabled: CATCH logic no longer used ---
+    // function _claimedCountries(flow) {
+    //   var claimed = [];
+    //   ROUTES.forEach(function (r) {
+    //     if (r.flow !== flow || _includesLoose(r.countries, 'CATCH')) return;
+    //     r.countries.forEach(function (c) { claimed.push(c); });
+    //   });
+    //   return claimed;
+    // }
   
         function _matches(route, p) {
       function reject(reason) {
@@ -210,10 +211,12 @@
       }
 
       // Countries
-      if (_includesLoose(route.countries, 'CATCH')) {
-        if (_includesLoose(_claimedCountries(route.flow), p.country))
-          return reject('CATCH: country claimed by another route');
-      } else if (route.countries.length && !_includesLoose(route.countries, p.country)) {
+      // --- CATCH logic disabled (kept for reference) ---
+      // if (_includesLoose(route.countries, 'CATCH')) {
+      //   if (_includesLoose(_claimedCountries(route.flow), p.country))
+      //     return reject('CATCH: country claimed by another route');
+      // } else
+      if (route.countries.length && !_includesLoose(route.countries, p.country)) {
         return reject('country ' + JSON.stringify(p.country) + ' not in [' + route.countries.join(', ') + ']');
       }
 
@@ -417,7 +420,7 @@
   //          console.log('[MeetingRouter] Matched:', route.name);
             _handleMatch(route, prospect, options);
           } else {
-  //          console.warn('[MeetingRouter] No matching route for:', prospect);
+            global.location.href = 'https://www.veesion.io/';
           }
         }).catch(function (err) {
   //        console.error('[MeetingRouter] Failed to read V4 field values:', err);
@@ -450,7 +453,7 @@
   //        console.log('[MeetingRouter] Matched:', route.name);
           _handleMatch(route, prospect, options);
         } else {
-  //        console.warn('[MeetingRouter] No matching route for:', prospect);
+          global.location.href = 'https://www.veesion.io/';
         }
       });
     }
@@ -477,7 +480,7 @@
   //        console.log('[MeetingRouter] Matched:', route.name);
           _handleMatch(route, prospect, options);
         } else {
-  //        console.warn('[MeetingRouter] No matching route for:', prospect);
+          global.location.href = 'https://www.veesion.io/';
         }
   
         return route;
