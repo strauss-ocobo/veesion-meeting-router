@@ -43,92 +43,102 @@
     // ═══════════════════════════════════════════════════════════════════════════
     var ROUTES = [
       {
+      name: 'C-US-1', flow: 'paid-acquisition',
+      link: 'https://fr.veesion.io/meetings/veesion/c-us-1',
+      countries: ['United States', 'Canada'],
+      locationType: '', locationValues: [],
+      storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Security manager', 'Retail Security Director', 'Asset Protection'],
+      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
+      minStores: 1
+    },
+    {
+      name: 'C-US-2', flow: 'paid-acquisition',
+      link: 'https://fr.veesion.io/meetings/veesion/c-us-2',
+      countries: ['United States', 'Canada'],
+      locationType: '', locationValues: [],
+      storeTypes: ['Liquor store', 'Convenience store', 'Gas station', 'Grocery Store (Convenience store)', 'Supermarket', 'Pharmacy'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      cameras: [],
+      minStores: 10
+    },
+    {
       name: 'C-FR-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-fr-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-fr-1',
       countries: ['France', 'Belgium'],
       locationType: 'zip_prefix', locationValues: ['75', '92'],
       storeTypes: ['Supermarket', 'Pharmacy'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Asset Protection', 'Loss Prevention', 'Security manager', 'Retail Security Director'],
       cameras: ['10-14 cameras', '15 - 34 cameras'],
       minStores: 1
     },
     {
       name: 'C-FR-2', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-fr-2',
+      link: 'https://fr.veesion.io/meetings/veesion/c-fr-2',
       countries: ['France'],
       locationType: 'zip_prefix', locationValues: ['77', '78', '91', '93', '94', '95'],
       storeTypes: ['Supermarket', 'Pharmacy'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'Head of Operations / COO', 'District / Regional Manager', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: ['10-14 cameras', '15 - 34 cameras'],
       minStores: 1
     },
     {
       name: 'C-FR-3', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-fr-3',
+      link: 'https://fr.veesion.io/meetings/veesion/c-fr-3',
       countries: ['France', 'Belgium'],
       locationType: 'zip_prefix_exclude', locationValues: ['75', '77', '78', '91', '92', '93', '94', '95'],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'Head of Operations / COO', 'District / Regional Manager', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: ['10-14 cameras', '15 - 34 cameras'],
       minStores: 1
     },
     {
       name: 'C-ES-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-es-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-es-1',
       countries: ['Spain'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Convenience store', 'Electronics store', 'Hardware Store', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
     {
       name: 'C-IT-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-it-1',
-      countries: ['Italy'],
+      link: 'https://fr.veesion.io/meetings/veesion/c-it-1',
+      countries: ['Italy', 'Italia'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Hardware Store', 'Convenience store', 'Electronics store', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: [],
       minStores: 1
     },
     {
       name: 'C-BR-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion-/c-br-1',
+      link: 'https://fr.veesion.io/meetings/veesion-/c-br-1',
       countries: ['Portugal', 'Brazil'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store', 'Grocery Store (Convenience store)', 'Electronics store', 'Hardware Store', 'Gardening Store'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: ['15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
     {
-      name: 'C-US-2', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-us-2',
-      countries: ['United States', 'Canada'],
-      locationType: '', locationValues: [],
-      storeTypes: ['Liquor store', 'Convenience store', 'Gas station', 'Grocery Store (Convenience store)', 'Supermarket', 'Pharmacy'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
-      cameras: [],
-      minStores: 10
-    },
-    {
-      name: 'C-US-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-us-1',
-      countries: ['United States', 'Canada'],
-      locationType: '', locationValues: [],
-      storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
-      cameras: ['10-14 cameras', '15 - 34 cameras'],
-      minStores: 1
-    },
-    {
       name: 'C-UK-1', flow: 'paid-acquisition',
-      link: 'https://meetings-eu1.hubspot.com/veesion/c-uk-1',
+      link: 'https://fr.veesion.io/meetings/veesion/c-uk-1',
       countries: ['United Kingdom', 'Ireland', 'Scotland'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
+      minStores: 1
+    },
+    {
+      name: 'C-CATCH', flow: 'paid-acquisition',
+      link: 'https://meetings-eu1.hubspot.com/veesion-/c-catch',
+      countries: ['CATCH'],
+      locationType: '', locationValues: [],
+      storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     }
@@ -184,15 +194,14 @@
   
     // Countries claimed by other (non-CATCH) routes in the same flow.
     // A CATCH route matches any country not in this list.
-    // --- Disabled: CATCH logic no longer used ---
-    // function _claimedCountries(flow) {
-    //   var claimed = [];
-    //   ROUTES.forEach(function (r) {
-    //     if (r.flow !== flow || _includesLoose(r.countries, 'CATCH')) return;
-    //     r.countries.forEach(function (c) { claimed.push(c); });
-    //   });
-    //   return claimed;
-    // }
+    function _claimedCountries(flow) {
+      var claimed = [];
+      ROUTES.forEach(function (r) {
+        if (r.flow !== flow || _includesLoose(r.countries, 'CATCH')) return;
+        r.countries.forEach(function (c) { claimed.push(c); });
+      });
+      return claimed;
+    }
   
         function _matches(route, p) {
       function reject(reason) {
@@ -201,12 +210,10 @@
       }
 
       // Countries
-      // --- CATCH logic disabled (kept for reference) ---
-      // if (_includesLoose(route.countries, 'CATCH')) {
-      //   if (_includesLoose(_claimedCountries(route.flow), p.country))
-      //     return reject('CATCH: country claimed by another route');
-      // } else
-      if (route.countries.length && !_includesLoose(route.countries, p.country)) {
+      if (_includesLoose(route.countries, 'CATCH')) {
+        if (_includesLoose(_claimedCountries(route.flow), p.country))
+          return reject('CATCH: country claimed by another route');
+      } else if (route.countries.length && !_includesLoose(route.countries, p.country)) {
         return reject('country ' + JSON.stringify(p.country) + ' not in [' + route.countries.join(', ') + ']');
       }
 
@@ -410,7 +417,7 @@
   //          console.log('[MeetingRouter] Matched:', route.name);
             _handleMatch(route, prospect, options);
           } else {
-            global.location.href = 'https://www.veesion.io/';
+  //          console.warn('[MeetingRouter] No matching route for:', prospect);
           }
         }).catch(function (err) {
   //        console.error('[MeetingRouter] Failed to read V4 field values:', err);
@@ -443,7 +450,7 @@
   //        console.log('[MeetingRouter] Matched:', route.name);
           _handleMatch(route, prospect, options);
         } else {
-          global.location.href = 'https://www.veesion.io/';
+  //        console.warn('[MeetingRouter] No matching route for:', prospect);
         }
       });
     }
@@ -470,7 +477,7 @@
   //        console.log('[MeetingRouter] Matched:', route.name);
           _handleMatch(route, prospect, options);
         } else {
-          global.location.href = 'https://www.veesion.io/';
+  //        console.warn('[MeetingRouter] No matching route for:', prospect);
         }
   
         return route;
