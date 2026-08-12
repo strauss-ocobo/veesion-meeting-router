@@ -43,16 +43,6 @@
     // ═══════════════════════════════════════════════════════════════════════════
     var ROUTES = [
       {
-      name: 'C-US-1', flow: 'paid-acquisition',
-      link: 'https://fr.veesion.io/meetings/veesion/c-us-1',
-      countries: ['United States', 'Canada'],
-      locationType: '', locationValues: [],
-      storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Security manager', 'Retail Security Director', 'Asset Protection'],
-      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
-      minStores: 1
-    },
-    {
       name: 'C-US-2', flow: 'paid-acquisition',
       link: 'https://fr.veesion.io/meetings/veesion/c-us-2',
       countries: ['United States', 'Canada'],
@@ -61,6 +51,16 @@
       jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
       cameras: [],
       minStores: 10
+    },
+    {
+      name: 'C-US-1', flow: 'paid-acquisition',
+      link: 'https://fr.veesion.io/meetings/veesion/c-us-1',
+      countries: ['United States', 'Canada'],
+      locationType: '', locationValues: [],
+      storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Security manager', 'Retail Security Director', 'Asset Protection'],
+      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
+      minStores: 1
     },
     {
       name: 'C-FR-1', flow: 'paid-acquisition',
