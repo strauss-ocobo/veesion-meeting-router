@@ -47,8 +47,8 @@
       link: 'https://fr.veesion.io/meetings/veesion/c-us-2',
       countries: ['United States', 'Canada'],
       locationType: '', locationValues: [],
-      storeTypes: ['Liquor store', 'Convenience store', 'Gas station', 'Grocery Store (Convenience store)', 'Supermarket', 'Pharmacy'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      storeTypes: ['Liquor store', 'Convenience store', 'Gas station', 'Grocery Store (Convenience store)', 'Supermarket', 'Pharmacy', 'Electronics store', 'Hardware Store', 'Gardening Store'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: [],
       minStores: 10
     },
@@ -57,8 +57,8 @@
       link: 'https://fr.veesion.io/meetings/veesion/c-us-1',
       countries: ['United States', 'Canada'],
       locationType: '', locationValues: [],
-      storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Security manager', 'Retail Security Director', 'Asset Protection'],
+      storeTypes: ['Convenience store', 'Gas station', 'Liquor store', 'Supermarket', 'Pharmacy', 'Grocery Store (Convenience store)', 'Electronics store', 'Hardware Store', 'Gardening Store'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
@@ -67,9 +67,9 @@
       link: 'https://fr.veesion.io/meetings/veesion/c-fr-1',
       countries: ['France', 'Belgium'],
       locationType: 'zip_prefix', locationValues: ['75', '92'],
-      storeTypes: ['Supermarket', 'Pharmacy'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Asset Protection', 'Loss Prevention', 'Security manager', 'Retail Security Director'],
-      cameras: ['10-14 cameras', '15 - 34 cameras'],
+      storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
+      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
     {
@@ -77,9 +77,9 @@
       link: 'https://fr.veesion.io/meetings/veesion/c-fr-2',
       countries: ['France'],
       locationType: 'zip_prefix', locationValues: ['77', '78', '91', '93', '94', '95'],
-      storeTypes: ['Supermarket', 'Pharmacy'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'Head of Operations / COO', 'District / Regional Manager', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
-      cameras: ['10-14 cameras', '15 - 34 cameras'],
+      storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
+      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
     {
@@ -88,8 +88,8 @@
       countries: ['France', 'Belgium'],
       locationType: 'zip_prefix_exclude', locationValues: ['75', '77', '78', '91', '92', '93', '94', '95'],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'Head of Operations / COO', 'District / Regional Manager', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
-      cameras: ['10-14 cameras', '15 - 34 cameras'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
+      cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
     {
@@ -98,7 +98,7 @@
       countries: ['Spain'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Convenience store', 'Electronics store', 'Hardware Store', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
@@ -108,7 +108,7 @@
       countries: ['Italy', 'Italia'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Hardware Store', 'Convenience store', 'Electronics store', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: [],
       minStores: 1
     },
@@ -118,7 +118,7 @@
       countries: ['Portugal', 'Brazil'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store', 'Grocery Store (Convenience store)', 'Electronics store', 'Hardware Store', 'Gardening Store'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: ['15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
@@ -128,7 +128,7 @@
       countries: ['United Kingdom', 'Ireland', 'Scotland'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
@@ -138,7 +138,7 @@
       countries: ['CATCH'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
-      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director'],
+      jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     }
