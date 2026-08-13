@@ -109,7 +109,7 @@
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Hardware Store', 'Convenience store', 'Electronics store', 'Gas station'],
       jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
-      cameras: [],
+      cameras: ['5 - 9 cameras', '10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
     },
     {
@@ -119,7 +119,7 @@
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store', 'Grocery Store (Convenience store)', 'Electronics store', 'Hardware Store', 'Gardening Store'],
       jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
-      cameras: ['15 - 34 cameras', '+ 35 cameras'],
+      cameras: ['15 - 34 cameras', '+ 35 cameras', '10-14 cameras'],
       minStores: 1
     },
     {
@@ -127,7 +127,7 @@
       link: 'https://fr.veesion.io/meetings/veesion/c-uk-1',
       countries: ['United Kingdom', 'Ireland', 'Scotland'],
       locationType: '', locationValues: [],
-      storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
+      storeTypes: ['Supermarket', 'Pharmacy', 'Gas station', 'Convenience store'],
       jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
       cameras: ['10-14 cameras', '15 - 34 cameras', '+ 35 cameras'],
       minStores: 1
