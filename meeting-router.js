@@ -135,7 +135,7 @@
     {
       name: 'C-CATCH', flow: 'paid-acquisition',
       link: 'https://meetings-eu1.hubspot.com/veesion-/c-catch',
-      countries: ['CATCH'],
+      countries: ['Guadeloupe', 'GP', 'Martinique', 'Réunion', 'RE', 'French Guiana', 'Mayotte', 'Saint Barthélemy', 'Saint Martin', 'MF', 'Saint Pierre and Miquelon', 'Wallis and Futuna', 'French Polynesia', 'New Caledonia', 'TF', 'Luxembourg', 'Switzerland', 'Monaco'],
       locationType: '', locationValues: [],
       storeTypes: ['Supermarket', 'Pharmacy', 'Gas station'],
       jobRoles: ['Je suis propriétaire d\'un magasin', 'Directeur d\'un magasin indépendant', 'Directeur d\'un Groupe Retail', 'Store Owner', 'Store owner', 'Store manager', 'Retail Group Director', 'District / Regional Manager', 'Head of Operations / COO', 'Loss Prevention', 'Asset Protection', 'Security manager', 'Retail Security Director', 'Finance Department'],
